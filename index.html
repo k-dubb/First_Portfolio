@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kelli Waiss</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" type="text/css" href="assets/css/semantic/semantic.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+</head>
+<body>
+    <a name="top" id="theTop"></a>
+    <div class="ui inverted vertical masthead center aligned segment" id="container">
+        <div class="ui menu top fixed container" id="responsiveMenu">
+            <a class="item" id="item1" href="#aboutme" style="color: white">About Me</a>
+            <a class="item" id="item2" href="#projects">Projects</a>
+            <a class="item" id="item3" href="#more">Background</a>
+            <a class="item" id="item4" href="https://www.linkedin.com/in/kelliwaiss" target="_blank">LinkedIn</a>
+            <a class="item" id="item5" href="https://github.com/K-Dubb" target="_blank">GitHub</a>
+            <a class="item" id="item6" href="https://drive.google.com/file/d/0Bz9j85Ce58m9UHV3U2NVTmpWa1U/view" target="_blank">Resume</a>
+        </div>
+
+    <div class="ui container" id="intro">
+        <h1>Hi, I'm Kelli!</h1>
+        <h2>&ltWeb developer&gt</h2>
+        <div class="radial-menu">
+            <div class="menu-item1" id="test"><a href="#aboutme" style= "color: white"><i class="menu">About Me</i></a></div>
+            <div class="menu-item2"><a href="#projects" style= "color: white"><i class="menu">Projects</i></a></div>
+            <div class="menu-item3"><a href="#more" style= "color: white"><i class="menu">More</i></a></div>
+            <div class="menu-item4"><a href="#contactme" style= "color: white"><i class="menu">Twitter</i></a></div>
+            <div class="mask"><i class="fa fa-home fa-3x"></i></div>
+        </div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/kelliwaiss" target="_blank"><i class="fa fa-linkedin-square fa-3x" id="linkedin"</a></i></div>
+        <div class="github"><a href="https://github.com/K-Dubb" target="_blank"><i class="fa fa-github fa-3x" id="git"</a></i></div>  
+        <div class="resume"><a href="https://drive.google.com/file/d/0Bz9j85Ce58m9UHV3U2NVTmpWa1U/view" target="_blank"><i class="fa fa-file-pdf-o fa-2x" id="resumeicon"></a></i></div>  
+    </div>
+        <img src="assets/photos/london.jpg" id="london" alt="London" >
+    </div>
+
+    <div id="filler">
+        <div class="ui container" id="about"><a name="aboutme"></a>
+            <h2>A little bit about myself</h2>
+            <p>I was born and raised just outside of Seattle, WA but moved to Austin in May 2014. In my spare time, I enjoy spending time with my dog, Sammi, who I adopted from <span class="italic">Austin Pets Alive!</span> last year. I’m a very laid-back person who enjoys spending time with my friends and family. Some activities I enjoy are: hiking, waterskiing, paddle boarding, going for a jog around Town Lake, and traveling.</p>
+        </div>
+    </div>
+
+    <div class="ui centered stackable fluid grid container" id="response">
+         <div class="seven wide column" id="eight">
+            <img class="ui centered fluid image" src="assets/photos/rome.jpg" id="rome" alt="Rome">
+        </div>
+        <div class="seven wide column" id="eight">
+            <img class="ui centered fluid image" src="assets/photos/sammi.jpg" id="sammi" alt="Dog">
+        </div>
+    </div>
+
+    <div id="filler">
+        <div class="ui container" id="about">
+            <p>I am currently attending General Assembly’s Web Development Immersive program where I've been learning various languages, frameworks, and tools to build individual and group projects as a full-stack developer.</p>
+
+            <p>Problem solving is something I enjoy and web development is like one big puzzle just waiting to be put together. I LOVE that. The feeling of creating something from nothing is very fulfilling.</p>
+
+            <p>Although I am new to the industry, I'm excited about my newfound passion and find myself researching new skills and tools on my own time outside of class in addition to listening to podcasts to learn from fellow developers.</p>
+
+            <p><span class="bold">I am <span id="underline">all in</span> and can’t wait to see where my new journey as a developer takes me!</span></p> 
+        </div>
+    </div>
+
+    <div class="projectsection">
+        <a name="projects" id="projects"></a>
+        <h2>My Projects</h2>
+        <div id="filler">
+            <div class="ui centered stackable grid container">
+                <div class="nine wide column" id="venueRater">
+                    <img class="ui fluid rounded image" src="assets/photos/venuerater.png" id="six">
+                </div>
+                <div class="seven wide column" id="slackOverflow">
+                    <img class="ui fluid rounded image" src="assets/photos/slack.png" id="six">
+                </div>
+                <div class="seven wide column" id="tictac">
+                    <img class="ui fluid rounded image" src="assets/photos/tictac.png" id="six"></a>
+                </div>
+                <div class="nine wide column">
+                    <a href="http://google.com"><img class="ui fluid rounded image" src="assets/photos/hiddenlake.jpeg" id="six"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui modal " id="modalVenue">
+        <div class="header" style="color: #EF476F;">venueRater</div>
+        <div class="image content">
+            <div class="ui medium image">
+                <img src="assets/photos/venuerater.png">
+            </div>
+            <div class="description">
+                <p>*Currently under construction. Feel free to check it out in the meantime, but keep in mind I'm making changes with the database as well as making the app responsive. Thanks for your patience!</p>
+                <p style="color: #26547C;">Built an app where a user can login, rate music & sporting venues, and save them to their favorites if they wish.</p>
+                <p style="color: #26547C; font-weight: bold; text-decoration: underline">Technologies used:</p>
+                <p style="color: #26547C">node.js, AJAX & http calls, JavaScript, jQuery, HTML/CSS, user authentication with Passport, MongoDB/Mongoose/MongoLab, SeatGeek API, created my own API</p>
+                <p style="color: #26547C; font-weight: bold">See it in action: <a href="http://quiet-island-78475.herokuapp.com/" target="_blank">venueRater</a></p>      
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">Close</div>
+        </div>
+    </div>
+
+    <div class="ui modal " id="modalSlack">
+        <div class="header" style="color: #EF476F;">SlackOverflowed</div>
+        <div class="image content">
+            <div class="ui medium image">
+                <img src="assets/photos/slack.png">
+            </div>
+            <div class="description">
+                <p style="color: #26547C;">Created a question and answer forum where General Assembly students can login and get help from fellow classmates and/or other GA classes/alumni. Users can ask questions and/or answer other students’ questions.</p>
+                <p style="color: #26547C; font-weight: bold; text-decoration: underline;">Technologies used:</p>
+                <p style="color: #26547C;">Ruby on Rails, Active Record, HTML/CSS, Postgres, user authentication with Devise, the Disqus API, Bootstrap</p>
+                <p style="color: #26547C; font-weight: bold">See it in action: <a href="http://rocky-sea-19788.herokuapp.com" target="_blank">SlackOverflowed</a></p>      
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">Close</div>
+        </div>
+    </div>
+
+    <div class="ui modal " id="modalTicTac">
+        <div class="header" style="color: #EF476F;">Tic Tac Toe</div>
+        <div class="image content">
+            <div class="ui medium image">
+                <img src="assets/photos/tictac.png">
+            </div>
+            <div class="description">
+                <p style="color: #26547C">Your classic game of tic tac toe!</p>
+                <p style="color: #26547C; font-weight: bold; text-decoration: underline;">Technologies used:</p>
+                <p style="color: #26547C;">HTML/CSS, JavaScript, jQuery, Bootstrap</p>
+                <p style="color: #26547C; font-weight: bold">See it in action: <a href="http://kellis-tic-tac-toe.bitballoon.com/" target="_blank">Tic Tac Toe</a></p>      
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui deny button">Close</div>
+        </div>
+    </div>
+
+    <a name="more"></a>
+    <div id="filler">
+        <div class="ui container" id="about2">
+            <h2>You may be wondering <br>how I got into web development...</h2>
+            <p>My path into web development is not your typical one. I attended nursing school in Helena, MT where I received my Bachelor’s of Science degree, graduating with distinction. Partway through school, I realized nursing was not my passion after all. I guess the saying is true, you never know until you try! I decided to take a step back and re-evaluate myself, my personality type, interests, hobbies, etc. to help determine a better career fit. As you may have guessed, I found web development!</p>
+
+            <p><span class="bold">I’m grateful for my experiences as a nurse and I know the critical thinking skills and empathy I gained from that chapter in my life bring a fresh perspective to the tech industry.</span></p>
+            
+            <p>While I was self-reflecting, I worked as an insurance agent. I didn’t want to jump into something too soon and later discover that it wasn’t for me (just like my experience with nursing). So I worked in sales and customer service while teaching myself coding on the side. I attended an “Introduction to Programming” Java course at a local community college to dip my toe in the water and did some more practice on sites like Codecademy.</p>
+
+            <p>Once I realized I was really enjoying the coding world, I decided that if I wanted to make the career switch into web development, I would need to go all in. I quit my job and signed up for General Assembly’s Web Development Immersive program where I would be learning in a classroom full-time from experienced web developers. <span class="bold">Web development was going to take over my life. And I was excited!</span></p>
+        </div>
+    </div>
+
+    <div class="ui centered stackable fluid grid container" id="response">
+        <div class="seven wide column" id="eight">
+            <img class="ui centered fluid image" src="assets/photos/hawks.jpg" id="hawks" alt="Seahawks">
+        </div>
+         <div class="seven wide column" id="eight">
+            <img class="ui centered fluid image" src="assets/photos/mountain2.jpg" id="mountain" alt="Mountain">
+        </div>
+    </div>
+
+    <div id="filler">
+        <div class="ui container" id="about">
+            <h2>Web Development + Nursing</h2>
+                <p>Believe it or not, I’ve found there are many similarities between web development and nursing. To name a few:<p>
+                <ul>
+                    <li><span class="bold">Problem solving & critical thinking - </span>The Nursing Process is a framework used by nurses to help them think critically and work through a patient’s care regarding their illness or injury. It includes: assessing the patient, diagnosing the problem, planning care, implementing that care, and evaluating the outcomes. That same process can be used by a developer to think through complex problems and bugs they encounter in their code.
+                    </li>
+                    <br>
+                    <li><span class="bold">Communication & working with others on a team - </span>As a web developer, you not only work with other developers on your team, but also with individuals from other departments and possibly with the client themselves, depending on your role. In nursing, you are working with the patient, other nurses, doctors, nursing assistants, respiratory therapists, physical therapists, teachers, the list goes on and on. Both in nursing and web development, not only do all team members need to support one another in their roles, but communication between all members and departments is vital. For example, in nursing, changes in a patient’s status, medication dosage, care plan, etc. are all important factors that must be conveyed to protect a patient’s health and safety. Similarly, in web development, changes to user stories or a timeframe can impact the outcome or launch of a project.
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="ui centered stackable grid container">
+        <div class="sixteen wide column">
+            <img class="ui centered fluid image" src="assets/photos/austin.jpg" id="austin" alt="Austin">
+        </div>
+    </div>
+
+    <div id="filler">
+        <div class="ui container" id="about">
+            <h2>Austin</h2>
+            <p>When people ask me why I moved to Austin, they are shocked to find out that I moved “because I wanted to!” They assumed I moved for school, a job, or was following a friend down here. Many people thought I was crazy to move so far away. To be honest, I was excited about the fact that I was moving over 2,000 miles away from home and didn’t know a single person. It was going to force myself to get out of my comfort zone. I was going to need to put myself out there, make new friends, and try new things.</p>
+
+            <p><span class="bold">I like to challenge myself</span> and although it doesn’t always feel great being <span class="bold">out of your comfort zone</span>, I believe you <span class="bold">learn more</span> and get the most out of those experiences.</p><br>
+        </div>
+    </div>
+
+    <div class="ui centered stackable grid " id="footer">
+        <div class="six wide column" id="twitter">
+            <a class="twitter-timeline" href="https://twitter.com/K_Waiss" data-widget-id="706966350594355200" height="400">Tweets by @K_Waiss</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+            </script>
+        </div>
+        <div class="six wide column" id="map">
+            <iframe width='100%' height='400px' frameBorder='0' src="https://api.mapbox.com/v4/mapbox.emerald.html?access_token=pk.eyJ1Ijoia3dhaXNzIiwiYSI6ImNpa2N3dXpmNjAwMGV1dmx6dDhzbXl5ZmQifQ.ky3NR9PMuk9A6m_PAL3yAQ#13/30.266/-97.745"></iframe>
+        </div>  
+    </div>
+
+    <!-- Scroll to top -->
+    <div class="ui container">
+        <div class="hvr-bob"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x" id="toTop"></a></i></div>
+    </div>
+
+    <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/javascripts/main.js"></script>
+</body>
+</html>
